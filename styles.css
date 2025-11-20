@@ -1,0 +1,43 @@
+.box{
+    border-style: double;
+    border-width: 3px;
+    border-color: purple;
+    height: 120px;
+    width: 120px;
+    margin: 20px;
+}
+.box2{
+    border-style: dotted;
+    border-width: 2px;
+    border-color: orange;
+    height: 130px;
+    width: 130px;
+    margin: 20px;
+}
+.box3{
+    border-style: groove;
+    border-width: 4px;
+    border-color: gray;
+    border-radius: 5px;
+    height: 140px;
+    width: 140px;
+    margin: 20px;
+}
+.box4{
+    border-top: 1px inset green;
+    border-right: 2px solid red;
+    border-bottom: 3px dashed blue;
+    border-left: 4px double yellow;
+    height: 110px;
+    width: 110px;
+    margin: 20px;
+}
+.box5{
+    border-style: solid;
+    border-width: 5px;
+    border-color: indigo;
+    border-radius: 50px;
+    height: 160px;
+    width: 160px;
+    margin: 20px;
+}
