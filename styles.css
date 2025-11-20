@@ -1,0 +1,11 @@
+.bg-mystery{
+    background-color: lightskyblue;
+    background-image: url('cool.webp'),linear-gradient(to bottom,lightpink,peachpuff);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px;
+}
+.bg-magic{
+    background-image: radial-gradient(circle,teal,green);
+    color: white;
+}
