@@ -1,0 +1,42 @@
+.boxsolid{
+    border-color: blue;
+    border-style: solid;
+    border-width: 4px;
+    height: 100px;
+    width: 100px;
+    margin: 30px;
+}
+.boxdashed{
+    border-color: red;
+    border-style: dashed;
+    border-width: 4px;
+    height: 20px;
+    width: 20px;
+    margin: 30px;
+}
+.boxrounded{
+    border-color: green;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 10px;
+    height: 70px;
+    width: 70px;
+    margin: 30px;
+}
+.boxindividual{
+    border-top: 2px solid salmon;
+    border-right: 4px dashed lawngreen;
+    border-bottom: 6px dotted aliceblue;
+    border-left: 8px double khaki;
+    height: 40px;
+    width: 40px;
+    margin: 30px;
+}
+.boxellipse{
+    border-color: yellow;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 50px;
+    height: 90px;
+    width: 90px;
+}
