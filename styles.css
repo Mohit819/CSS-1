@@ -1,0 +1,23 @@
+.container span{
+    display: inline-block;
+    background-color: blue;
+    padding: 20px;
+    margin: 10px;
+}
+.box{
+    float: left;
+    width: 50%;
+    background-color: lightblue;
+    padding: 10px;
+}
+.positioned_container{
+    position: relative;
+    height: 200px;
+}
+.positioned{
+    position: absolute;
+    height: 50px;
+    left: 20px;
+    padding: 5px;
+    background-color: lightgreen;
+}
