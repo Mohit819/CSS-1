@@ -1,0 +1,20 @@
+ul{
+    list-style-type: none;
+    padding-left: 0px;
+}
+ul li::before{
+    content: "🐛";
+    margin-right: 10px;
+}
+ol{
+    list-style-type: none;
+    padding-left: 0px;
+    counter-reset: my-counter;
+}
+ol li{
+    counter-increment: my-counter;
+}
+ol li::before{
+    content: counter(my-counter) ".";
+    margin-right: 10px;
+}
