@@ -1,0 +1,27 @@
+body{
+    font-family: Arial,sans-serif;
+}
+a{
+    text-decoration: none;
+    color: lightblue;
+    font-weight: bold;
+}
+a:visited{
+    color: navy;
+    font-style: italic;
+}
+a:hover{
+    color: green;
+    text-decoration: underline;
+    font-size: 20px;
+    
+}
+a:focus{
+    outline: 2px solid orange;
+}
+li{
+    padding: 20px;
+    margin: 20px;
+    line-height: 20px;
+    font-size: large;
+}
