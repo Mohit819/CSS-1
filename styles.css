@@ -1,0 +1,29 @@
+ul{
+    list-style-type: none;
+    padding: 0;
+    line-height: 21px;
+}
+ul li::before{
+    content: "🚫";
+    color: blue;
+}
+ol{
+    list-style-type: none;
+    padding-left: 0px;
+    counter-reset: my-counter;
+    line-height: 93px;
+}
+ol li{
+    counter-increment: my-counter;
+}
+ol li::before{
+    content: counter(my-counter) ".";
+    margin-right: 10px;
+    color: blueviolet;
+}
+li{
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: bold;
+}
